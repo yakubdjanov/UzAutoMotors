@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DILERS</title>
+    <link rel="icon" href="img/uzautomotors-white.svg" type="image/png" sizes="192x192">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body class="body">
+    <div class="wrapper-parent">
+        <div class="wrapper">
+            <nav class="menu__scrol">
+                <ul class="menu__ul">
+                    <li><a href="index.html"><img src="img/uzautomotors-black.svg" alt="" class="menu__icon"></a>
+                    <li><a href="prices.html" class="menu__li">Цены</a></li>
+                    <li><a href="index.html#main" class="menu__li">МОДЕЛЬНЫЙ РЯД</a></li>
+                    <!-- <li><a href="" class="menu__li">ПОКУПАТЕЛИ</a></li>
+          <li><a href="" class="menu__li">ВЛАДЕЛЬЦАМ</a></li> -->
+                    </li>
+                    <li><a href="accessories.html" class="menu__li">Аксессуары</a></li>
+                    <li><a href="dilers.html" class="menu__li">Дилеры</a></li>
+                    <li class="menu__li"><img src="img/icon/input.png" alt="" class="icon__input"><a
+                            href="https://id.egov.uz/?client_id=savdo_uzavtosanoat_uz&token_id=4499c54a-2218-44f8-9f33-391aceba85cd&method=IDPW"
+                            class="menu__li-1">Вход</a></li>
+                    <!-- <li><a href="" class="menu__li">ПРЕСС-ЦЕНТЕР</a></li>
+          <li><a href="" class="menu__li">КОМУНИКАЦИЯ</a></li> -->
+                    <img src="img/icon/bars.png" alt="" class="icon menu-icon dropbtn" onclick="myFunction()">
+
+                    <ul id="myDropdown" class="menu-uls dropdown-content">
+                        <a class="menu-li" href="prices.html">Цены</a>
+                        <a class="menu-li" href="index.html#main">МОДЕЛЬНЫЙ РЯД</a>
+                        <a class="menu-li" href="accessories.html">Аксессуары</a>
+                        <a class="menu-li" href="dilers.html">Дилеры</a>
+                    </ul>
+
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="dilers"></div>
+    <div class="containers">
+        <header class="dilers__header">
+            <h1 class="dilers__title-h1">СПИСОК ДИЛЕРОВ</h1>
+            <form action="/search/" target="_blank">
+                <input type="search" name="text" value=""
+                    class="search form-control ng-valid ng-dirty ng-valid-parse ng-empty ng-touched"
+                    ng-model="q.search.name" placeholder="Поиск...">
+            </form>
+            <select class="dilers__regions" placeholder="Выберите регион..">
+                <div class="x">
+                    <option value="" class="dilers__regions_desc"></option>
+                    <option value="1" class="dilers__regions_desc">Андижанская область</option>
+                    <option value="2" class="dilers__regions_desc">Бухарская область</option>
+                    <option value="3" class="dilers__regions_desc">город Ташкент</option>
+                    <option value="4" class="dilers__regions_desc">Джизакская область</option>
+                    <option value="5" class="dilers__regions_desc">Кашкадарьинская область</option>
+                    <option value="6" class="dilers__regions_desc">Навоийская область</option>
+                    <option value="7" class="dilers__regions_desc">Наманганская область</option>
+                    <option value="8" class="dilers__regions_desc">Республика Каракалпакстан</option>
+                    <option value="9" class="dilers__regions_desc">Самаркандская область</option>
+                    <option value="10" class="dilers__regions_desc">Сурхандарьинская область</option>
+                    <option value="11" class="dilers__regions_desc">Сырдарьинская область</option>
+                    <option value="12" class="dilers__regions_desc">Ташкентская область</option>
+                    <option value="13" class="dilers__regions_desc">Ферганская область</option>
+                    <option value="14" class="dilers__regions_desc">Хорезмская область</option>
+                </div>
+            </select>
+        </header>
+    </div>
+    <main>
+        <div class="containers">
+            <div class="dilers-self">
+                <a href="map/map-1.html" class="dilers__box">
+                    <h2 class="dilers__title">OOO “ANDIJON VILOYAT PFK”</h2>
+                    <iconify-icon icon="akar-icons:star" width="15" height="14"></iconify-icon>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">Андижанская область, Олтинкульский район, Жалабек КФЙ, массив С.Ашуров
+                        </p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">+99895-308-22-21</p>
+                    </iconify-icon>
+                </a>
+                <a href="map/map-2.html" class="dilers__box">
+                    <h2 class="dilers__title">ДП "AS-АНДИЖАН SERVIS"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г. Андижан, поселок Кутарма к.ф.й</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">0-595-200-23-52</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "ASAKA-AVTOSAVDO"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г. Асака, ул А.Навоий, 8</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">0-374-232-11-55</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "АНДИЖАН АВТОТЕХ ХИЗМАТ"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г. Андижан, ул. Айланма, 1</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">78-298-07-70 595-200-07-70</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "АНДИЖАН-АВТОСАВДО СЕРВИС"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">город Андижан, улица Кушарик - 5а</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> 0-595-200-37-42
+                            0-595-200-37-45</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "БОБУР"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г. Андижан, ул. Бобуршох, 116</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">595-200-82-03</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">"BUXARA AVTO MAGNAT" МCHJ</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">Бухоро вилоят, Бухоро шахар, Газли Шох кўчаси, 500-уй.</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> (65)-5054000</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "GIJDUVON AVTOTEXXIZMAT"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г. Гиждуван, ул. Абдулла Каххор, 1</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> 0-365-572-45-18</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">98 2747112 </p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">98 2747110</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "SITORA-AVTOSAVDO"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г. Бухара, ул. Мохи Хоса, 22</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> 0-365-228-57-12</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">0-595 608-30-00</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "VOBKENT AVTOTEXXIZMAT"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">Вобкентский район, "Янгикент" к.ф.й.</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">0-365-220-72-72</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> 0-365-220-20-22.</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "БУХОРОАВТОТЕХХИЗМАТ"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г. Бухара, ул Гиждуванская, 69</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">0-595-200-23-52</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">"НУРАФШОН АВТОЦЕНТР" TRADE-IN</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г. Ташкент, Бектемирский район ул. Х.Бойкаро дом-28А</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">953030077</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">OOO "ПОЙТАХТ АВТО ТЕХ САВДО"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">Шайхантахур тумани Беруний 3 А кучаси</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> 95 402-20-05</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">OOO “TURON AVTO”</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">Сергелинский район, "Беларик" МФЙ, ул. Беларик, дом 713</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">595-199-69-05</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">595-170-15-15</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">YUNUS-OBOD AVTO SAVDO MCHJ</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г. Ташкент, ул. Амира Темура, 79</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">371-223-99-88</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">371-223-99-77</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "MEGA OIL BIZNES"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">Янгихаётский район, Ташкентская кольцевая атомобильная дорога, 120а</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">99871 2091616</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> 99871 2091661</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "OSCAR MOTORCARS"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> Учтепенский р-н. ул. Кичик халқа йули д.68</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">+99899 227-09-09</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "PSM-АВТОСАВДО"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г.Ташкент, ул. Кичик Халка Йули, Супермаркет-2</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">+99871 230-22-62</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "TOSHKENT MOTORS AVTO SAVDO"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> Бектемир р-н, улица Туёна, 12</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">+998 (71) 295-91-14</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">+998 (95) 177-91-14.</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "TOSHKENTDEU" ЦЕНТР</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">Яккасарайский р-н, ул.Шота Руставели, 152</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">71-207-59-59</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">71-215-7777</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "АВТОТЕХ ХИЗМАТ" </h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г. Ташкент, Чиланзарский р-н, проспект Бунёдкор 118</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">371-279-46-67</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "ЛЮКС АВТО МОТОРС"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г.Ташкент, Юнусабадский р-н. ул. Зиёлилар. Д. 1Б ( ориентир
+                            лакокрасочный завод)</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">0-371-262-92-92</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">0-371-200-00-70</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "ПОЙТАХТ АВТОСАВДО"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г. Ташкент, М.Улугбеский р-н, ул. М.Улугбека, 82 а.</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">71 263-51-54</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">71 263-51-36</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">98 365-53-65</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "СЕРГЕЛИ-АВТОТЕХ ХИЗМАТ"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">Сергелийский р-н, ул.Обихаёт, 39</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">378-147-74-77</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">371-257-74-77</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "ТАШКЕНТ АВТОМАРКАЗ"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г. Ташкент, Чиланзар, ул. Бунёдкор, 27</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">+99871 279-28-74</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "УЗАВТОТЕХХИЗМАТ"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г. Ташкент,Яшнобод р-н, Алмалыкское кольцо, 1</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">371-129-10-09</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "УЧТЕПА АВТОСАВДО"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> г. Ташкент, Учтепинский р-н, Чиланзар - 31, ул. Гулистон, 8 в</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> 371-287-30-03</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">371-270-68-58</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО AVTO-GRAND LYUKS</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> Ташкентская обл., Зангиотинский р-н, ул. А.Темура, 1</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">+998 (55) 900-00-00</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО «GREEN CARS MOTORS»</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г.Ташкент, Учтепинсикй район, Чиланзар 26 кв, ул.Ширин, дом 7.</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">+99871 200 00 09</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">+99895 302 00 09</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО «TASHKENT AUTO DEALER»</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> г.Ташкент, Яккасарайский р-н., МКАД, 1А</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">95 169 76 50</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО «ХУМО-АВТОСАВДО»</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">Юнусабадский р-н, ул. А.Темура, 4-квартал, д2«А».</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> (71) 224-51-88 (71) 224-90-29</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">OOO “VEHICLE VALLEY”</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> Жиззах вилояти, Шароф Рашидов тумани, Файзобод МФЙ, Автомагистраль М-39
+                            йули</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> (98) 363-77-77 (95) 281-55-55</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "EURO AZIA MOTORS"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">Ш.Рашидовский р-н, Кахрамон ССГ, Кушбармок МСГ.</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">(55) 151-00-01</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "ЖИЗЗАХ-АВТОСАВДО"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">Жиззах вилояти, Галлаорол т-н, Мадания КФЙ</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> 372 432 40 00</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> 94 575 07 05</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "ЖИЗЗАХАВТОТЕХХИЗМАТ"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> г. Джиззак, ул. Большой Узб, Тракт, 115</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">+998 72-223-27-74.</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "ЗОМИН-АВТОСАВДО"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г. Зомин, ул. Мустакиллик 7</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">0-598-261-37-67 </p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "AVTORUM"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г.Карши, с. Сахтапиёз </p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">75-230-22-22</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">75-230-12-12</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "НАВОИЙ АВТО МОТОРС"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">Карманийский район, поселок Янги-Арык, "Толкок" махалля</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">+998792100077</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "НАВОИЙ АВТОТЕХ ХИЗМАТ"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> г. Навои, ул. А.Тимура, дом 2</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">+998792100077</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "НАВОИЙ АВТОТЕХХИЗМАТ"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г. Навои, ул. А.Тимура, дом 2</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> 79-222-00-20, 1057</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "НАВОИЙ-АВТОСАВДО"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г. Навои, ул. Меъморлар 11А</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">(79)-220-55-55</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">(79)-220-99-99</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО «BILLUR AVTO SAVDO NAVOIY»</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">Навои,МСГ Узбекистан ул. А. Темура дом 4а.</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> (79) 210-57-57</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> (79) 220-57-57</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> (78) 777-00-05</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "AUTO CAR PART"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">Наманган шахар Хамрох куча 70 уй</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">+99895 302-55-55
+                        </p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "DRIVER'S VILLAGE" НАМАНГАНСКИЙ ФИЛИАЛ</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> Наманганская область, г. Наманган, Давлатабадский район, ул. Галаба,
+                            дом 25.</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> 371-200-70-70</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> 371-200-07-00</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "НАМАНГАН-АВТОТЕХХИЗМАТ"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г. Наманган, ул. Тинчлик, 3</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">595-303-37-77</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">369-232-17-04</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "ЧУСТ-АВТОТЕХХИЗМАТ-Н"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г. Чуст, ул. Ташкентская, 3</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">0-595-300-88-12</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">0-595-303-88-22</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">OOO "BERUNIY AVTOSAVDO SERVIS"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> г. Беруни, ул. Хорезм, 17 (К.Нурумбетов б/н)</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> 0-361-524-00-95</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">OOO "КЕГЕЙЛИ АГРОТЕХСЕРВИС МТП"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">Кегейлийский район, ул. Достлык гузари</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">0-361-412-22-19</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "QARAQALPAQ AVTO TEX XIZMET"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г. Нукус, магистраль Турткуль-Нукус, 1</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> 361-770-72-26</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> 595-605-72-26</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "АВТО БИНОКОР СЕРВИС"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г. Самарканд, ул. Курчатова, 57</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">0-366-233-44-12</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "САМАРКАНД АВТОТЕХХИЗМАТ"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г. Самарканд, ул. Спитамена, 157</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">+99897 016 07 77</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">СП ООО "РЕГАЛ"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г. Самарканд, ул. Свидеревского, 60а</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">+998662322299</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">+998971023399</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "СУРХАНДАРЬЯ АВТОТЕХХИЗМАТ"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> г. Термез, ул. И.Каримов, дом 288 б</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">+99876-221-89-57</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "СУРХОН АВТОСАВДО"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">Дэнауский р-н, ул.Ш.Рашидова, дом 255а</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">0-595-501-07-13</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ДП "AS-СЫРДАРЬЯ SERVIS"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">Сырдарьинский р-н, массив С.Рахимова, ул.Чехра</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">595-290-03-93</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "ОК ОЛТИН АВТОТЕХСЕРВИС"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">Акалтинский район, город Сардоба, ул. Гулистан</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">0-595-200-23-52</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "СЫРДАРЬЯ АВТОТЕХХИЗМАТ"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г. Гулистан, ул. Ахунбабаева, 169</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">+998994930777</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> +998994920777</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">OOO "GRAND AUTO MOTORS"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">Чиназский р-н, пос Новый Чиназ, ул. Строителей</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">595-142-65-43</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> 595-142-22-21</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">OOO "LION MOTORS"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">Ташкентская область, г. Ангрен, ул. Охангарон, дом- 27а.</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> +99871-203-57-57</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> +99871-202-57-57</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">OOO NURAFSHON AVTOCENTR</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г. Нурафшон, Бирлик МФЙ ул. Тошкент йули</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">371-203-30-20</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "AS-TOY TEPA SAVDO SERVIS"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> Нурафшон шахар Дехқонобод МФЙ</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">(95)-300-20-41</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">(95) 303-20-41</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "AUTOGRAPH AUTOMOTIVE GROUP"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> Ташкентский область, район Ташкент, посёлок Кизгалдок, 6 квартал ТХАЙ
+                        </p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">+998712029000</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "DRIVER'S VILLAGE"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г. Ташкент, Зангиатинский р-н, Узгариш КФЙ, Кичик Халка Йули</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">371-200-70-70</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">371-200-07-00</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "DRIVER'S VILLAGE" БЕКАБАДСКИЙ ФИЛИАЛ</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">Ташкентская область, Бекабадский р-н, г.Зафар, Oлтин водий МФЙ, ул.
+                            Тошкент, дом 1 a</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> 371-200-70-70</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> 371-200-07-00</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "PRONTO MOTOR TRADE"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> Таш. обл., Чиноз ш., Самарканд кучаси, 100</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> 595-197-90-97</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "QIBRAY AVTO-MOTO SERVIS"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">Ташкентская область, Кибрайский р-н, Дурмон, ул. Юкори-Юз, дом № 53</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">0-595-142-30-60</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "SHEDEVR MOTORS"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> Юкоричирчикский район, ш/х «Йик ота», ул. Узбекистанская 47</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> 0-595-145-67-76</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> 0-595-197-67-76</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "БЕКОБОД АВТОСАВДО"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> г. Бекабад, ул Галаба б/н</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">(97)-325-11-11</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">(95)-512-52-00</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "ТОШКЕНТ АВТОСАВДО"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> Toshkent viloyati Quyi Chirchiq tumani Mevazor MFY</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">370-567-10-52</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "ЧИРЧИК АВТОСАВДО"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> г. Чирчик, ул. Навои, 59</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">597-715-41-08</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ДП "AS-ФЕРГАНА SERVIS"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">Язяванский р-н ул. Андижан 2</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">(+99895) 402-02-50</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">(+99895) 400-10-61</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "FARG’ONA AVTOMARKAZ"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г. Фергана, ул. Камилова, 3</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">0-595-400-24-27</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "КОКАНД АВТО ТРЕЙД"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">Г. Коканд, ул. Турон, 62</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">73-229 01 00</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "КОКАНД-АВТОСАВДО"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> г. Коканд ул. Навои, 90</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">0-373-541-32-32 </p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "КУКОНАВТОТЕХХИЗМАТ"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г. Коканд, ул. Фуркат, 75 а</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">73 541-77-44</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "ФАРГОНА-АВТО САВДО"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г. Фергана, ул. Додхох, 9</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">73 244 89 93</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">98 575 44 00</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "ФЕРГАНА МОТОРС"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г. Фергана, ул. Ал Фаргони 143</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> +998 98-575-16-00</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО «MARG’ILON AVTO SAVDO»</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">Ферганская область, г. Маргилан, ул. Янги Хает, дом 7.</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">+998 55 803 70 71</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО «СЎХ САВДО МАИШИЙ ХИЗМАТ АВТО»</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">Ферганская область, Сохский район, городок Равон, ул. А.Темура.</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">(99) 994 78 43</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО ФЕРГАНА "АВТОТЕХХИЗМАТ-Ф"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> г. Фергана, ул. Аэропорт, 78</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">595-400-20-87</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc"> 373 241-95-12</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "ХОРАЗМ АВТОСАВДО"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г. Ургенч, ул. Аз Замахшарий, 57</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">95 6211373</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО "ХОРАЗМАВТОТЕХХИЗМАТ"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">г. Ургенч, ул. Промышленная, 24</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">95-606-66-55</p>
+                    </iconify-icon>
+                </a>
+                <a href="#" class="dilers__box">
+                    <h2 class="dilers__title">ООО ИП "BOBUR TRANS LOGISTIK"</h2>
+                    <iconify-icon icon="carbon:location-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">инд. 220100, Урганч шахар, Бинокор,кучаси, 1пр, 2 уй.</p>
+                    </iconify-icon>
+                    <iconify-icon icon="carbon:phone-filled" style="color: black;" width="20" height="20">
+                        <p class="dilers__desc">+99862 226 03 33</p>
+                    </iconify-icon>
+                </a>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__bg">
+            <a href="index.html"><img src="img/uzautomotors-white.svg" alt="" class="menu__icon_footer"></a>
+            <nav style="display: grid;">
+                <a href="https://www.chevrolet.uz/" class="footer__menu">Chevrolet Uz</a>
+                <a href="https://uzautomotors.com/" class="footer__menu">Uz Auto Motors</a>
+                <a href="https://savdo.uzavtosanoat.uz/#/main" class="footer__menu">Uz Auto Savdo</a>
+                <a href="accessories.html" class="footer__menu">Аксессуары и запчасти</a>
+                <a href="" class="footer__menu"></a>
+            </nav>
+            <nav class="col-3 d-flex    ">
+                <div class="footer__info footer-2_info">
+                    <h3 class="footer__title">АДРЕС</h3>
+                    <p class="footer__menu footer__desc">г.Ташкент, Мирабадский район, улица А.Темура,дом 13</p>
+                    <p class="footer__menu">
+                        <bold>Время работы:</bold> 09:00-18:00
+                    </p>
+                    <p class="footer__menu">
+                        <bold>Обед:</bold> 13:00-14:00
+                    </p>
+                    <a href="https://www.google.com/maps/place/%22UzAuto+Motors%22+%D0%90%D0%9E/@41.3062584,69.2776085,280m/data=!3m1!1e3!4m5!3m4!1s0x0:0x1839c463a783508e!8m2!3d41.3057621!4d69.2781386"
+                        class="footer-2_info">Просмотреть на работе</a>
+                </div>
+            </nav>
+
+            <nav class="">
+                <ul class="footer__icon_menu">
+                    <li class=""><a href="https://t.me/uzautomotorscom" class="menu__li_info"><span
+                                class="iconify main__icon" data-icon="ph:telegram-logo-light" style="color: white;"
+                                data-width="25" data-height="25"></span></a></li>
+                    <li class=""><a href="https://ru-ru.facebook.com/UzAuto/" class="menu__li_info"><span
+                                class="iconify main__icon" data-icon="ph:facebook-logo" style="color: white;"
+                                data-width="25" data-height="25"></span></a></li>
+                    <li class=""><a href="https://www.instagram.com/uzautomotorsofficial/" class="menu__li_info"><span
+                                class="iconify main__icon" data-icon="carbon:logo-instagram" style="color: white;"
+                                data-width="25" data-height="25"></span></a></li>
+                    <li class=""><a href="https://www.youtube.com/channel/UCRXbgWhj9AWRHpoOm4LP6pQ/featured"
+                            class="menu__li_info">
+                            <iconify-icon icon="ant-design:youtube-outlined" width="40" height="29"></iconify-icon>
+                        </a></li>
+                </ul>
+            </nav>
+
+        </div>
+        <div class="footer__2">
+            <p class="footer-2_info ">© 1996 - 2022 АО "УЗАВТО МОТОРС"</p>
+            <img src="img/hit.gif" alt="" class="footer-2_img">
+        </div>
+        <a href="#!" class="btn  btn-lg js-btn-top hidden">
+            &uarr;
+        </a>
+    </footer>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/js.js"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+</body>
+
+</html>
